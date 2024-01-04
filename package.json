@@ -11,7 +11,11 @@
     "url": "git+https://github.com/XenoPOMP/next-metrika.git"
   },
   "bugs": "https://github.com/XenoPOMP/next-metrika/issues",
-  "keywords": [],
+  "keywords": [
+    "next",
+    "metrika",
+    "yandex"
+  ],
   "sideEffects": false,
   "exports": {
     ".": {
