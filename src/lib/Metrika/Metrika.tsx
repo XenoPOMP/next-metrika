@@ -15,7 +15,7 @@ import type { MetrikaProps } from './Metrika.props';
  *
  * @see https://metrika.yandex.ru
  */
-const Metrika: FC<MetrikaProps> = ({ id }) => {
+const Metrika: FC<MetrikaProps> = ({ id, clickMap = true, trackLinks = true, accurateTrackBounce = true }) => {
   return (
     <Script id={'metrika-counter'} strategy={'afterInteractive'}>
       {`   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -25,9 +25,9 @@ const Metrika: FC<MetrikaProps> = ({ id }) => {
            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
         
            ym(${id}, "init", {
-                clickmap:true,
-                trackLinks:true,
-                accurateTrackBounce:true
+                clickmap:${clickMap},
+                trackLinks:${trackLinks},
+                accurateTrackBounce:${accurateTrackBounce}
            });`}
     </Script>
   );
