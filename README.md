@@ -3,7 +3,11 @@
 ## 📦 Installation / Установка
 
 ```shell
+npm i next-metrika
+```
 
+```shell
+yarn add next-metrika
 ```
 
 ## 🔨 Usage / Использование
