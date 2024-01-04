@@ -1,16 +1,16 @@
 {
-  "name": "pkg-name",
+  "name": "next-metrika",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
-  "author": "Riri <Daydreamerriri@outlook.com>",
+  "author": "XenoPOMP",
   "license": "MIT",
-  "homepage": "https://github.com/Daydreamer-riri/pkg-name#readme",
+  "homepage": "https://github.com/XenoPOMP/next-metrika",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Daydreamer-riri/pkg-name.git"
+    "url": "git+https://github.com/XenoPOMP/next-metrika.git"
   },
-  "bugs": "https://github.com/Daydreamer-riri/pkg-name/issues",
+  "bugs": "https://github.com/XenoPOMP/next-metrika/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
