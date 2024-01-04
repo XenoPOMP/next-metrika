@@ -12,6 +12,6 @@
     "skipDefaultLibCheck": true,
     "sourceMap": true,
     "experimentalDecorators": true,
-    "jsx": "react"
+    "jsx": "preserve",
   }
 }
